@@ -1,0 +1,20 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+javafx {
+    version = "16"
+    modules = [ 'javafx.controls' ]
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+mainClassName = 'ca.qc.bdeb.inf203.tp2Online.Main'
