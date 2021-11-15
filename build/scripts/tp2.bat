@@ -85,7 +85,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\tp2.jar;%APP_HOME%\lib\javafx-controls-16-win.jar;%APP_HOME%\lib\javafx-graphics-16-win.jar;%APP_HOME%\lib\javafx-graphics-16.jar;%APP_HOME%\lib\javafx-base-16-win.jar;%APP_HOME%\lib\javafx-base-16.jar
 
 @rem Execute tp2
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TP2_OPTS%  -classpath "%CLASSPATH%" ca.qc.bdeb.inf203.tp2.Main %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TP2_OPTS%  -classpath "%CLASSPATH%" ca.qc.bdeb.inf203.tp2Online.Main %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
