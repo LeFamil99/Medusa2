@@ -62,7 +62,7 @@ public class Main extends Application {
         Random rnd = new Random();
         id = (int) Math.round(rnd.nextDouble() * Math.pow(2, 50));
         try {
-            dout.writeUTF("Player " + id + " joined");
+            dout.writeUTF("Player " + id + " just joined");
             dout.flush();
         } catch (Exception e){
             System.out.println(e.getMessage());
